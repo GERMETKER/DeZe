@@ -32,10 +32,19 @@ int main()
         for (int i = 1; i < y; i++)
         {
             step = step * x;
-            
         }
-    }
     std::cout << step;
+    }
+    else if (y == 1)
+    {
+        step = x;
+        std::cout << step;
+    }
+    else
+    {
+        step = 0;
+        std::cout << step;
+    }
     */
         
     //задание 3
